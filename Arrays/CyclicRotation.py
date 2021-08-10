@@ -5,6 +5,7 @@ def solution(A, K):
         new[0] = old[-1]
         new[1:] = old[:-1]
         old = new.copy()
+        
     return new
 
 
